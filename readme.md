@@ -13,7 +13,7 @@
 ## Мои контакты 🫶:
 | Мои соц. сети | Ссылки на них |
 |--|--|
-| Мой GitHub | https://github.com/polinalitvichenko |
-|Мой Telegram| https://telegram.org/melowok/  |
-| Мой Gmail| polinalitvichenko@gmail.com |
+| Мой GitHub | `https://github.com/polinalitvichenko` |
+|Мой Telegram| `"https://telegram.org/melowok/"`  |
+| Мой Gmail| `polinalitvichenko@gmail.com` |
 
