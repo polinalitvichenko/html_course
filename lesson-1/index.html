@@ -10,14 +10,14 @@
   <title>Книжный магазин ОГОГО | Books</title>
   <style>
     * {
-      margin: 0;
-      padding: 0;
+      /* margin: 0; 
+      padding: 0;*/
     }
 
     a {
       padding: 10px;
       font-size: 20px;
-      text text-decoration: none;
+      text-decoration: none;
     }
 
   </style>
@@ -26,19 +26,19 @@
 <body>
   <!---Валидность\Семантика html-->
   <!---Шапка сайта-->
-  <header>
+  <header id="top">
     <img
-      src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+      src="https://images.unsplash.com/photo-1631821980934-4e174b901ff2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       alt="логотип сайта" loading="lazy" title="Логотип сайта" width="300px">
     <!-- Навигация -->
     <nav>
-      <a href="#">
+      <a href="./index.html">
         <strong>О нас</strong>
       </a>
       <a href="#">
         <strong>Книги</strong>
       </a>
-      <a href="#">
+      <a href="./contacts.html">
         <strong>Контакты</strong>
       </a>
     </nav>
@@ -66,20 +66,69 @@
       <p>Lorem ipsum dolor sit amet.</p>
       <p>Lorem ipsum dolor sit amet.</p>
     </details>
-    <table border="1px">
-      <th>
-      <td>Продукт</td>
-      <td>Цена</td>
-      <td>Наличие</td>
-      </th>
+    <hr>
+    <table border="1px" style="width: 500px;">
       <tr>
-        <td>Гарри Поттер</td>
-        <td>150 сом</td>
-        <td>Есть</td>
-
+        <th colspan="4"> Таблица цен </th>
       </tr>
-
+      <tr>
+        <th> Наше мнение: </th>
+        <th> Продукт </th>
+        <th> Цена </th>
+        <th> Наличие </th>
+      </tr>
+      <tr>
+        <td rowspan="4"> Супер книги</td>
+        <td> Гарри Поттер </td>
+        <td> 150 сом </td>
+        <td> Есть </td>
+      </tr>
+      <tr>
+        <td> Питер Пен </td>
+        <td> 300 сом </td>
+        <td> Есть </td>
+      </tr>
+      <tr>
+        <td> Три мушкетера </td>
+        <td> 200 сом </td>
+        <td> Под заказ </td>
+      </tr>
+      <tr>
+        <td> Изумрудный город </td>
+        <td> 500 сом </td>
+        <td> Под заказ </td>
+      </tr>
     </table>
+    <hr>
+    <section>
+      <h3> Отзывы </h3>
+      <!-- список -->
+      <ul type="square">
+        <li>
+          Круто
+        </li>
+        <li>
+          Мне понравилось
+        </li>
+        <li>
+          Like!
+        </li>
+      </ul>
+      <hr>
+      <ol type="I">
+        <li>
+          <address>ул. Московская дом 5</address>
+        </li>
+        <li>
+          <address> ул. Донецкая дом 12</address>
+        </li>
+        <li>
+          <address> ул. Тульская дом 270/3</address>
+        </li>
+      </ol>
+      <hr>
+    </section>
+    <a href="#top"> Наверх </a>
   </main>
   <!---Подвал сайта-->
   <footer></footer>
